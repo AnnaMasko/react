@@ -1,0 +1,109 @@
+.container {
+    width: 960px;
+    height: 400px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.card {
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: #757575;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+}
+
+.popularTitle::before {
+    content: "POPULAR";
+    display: inline-block;
+    margin-right: 14px;
+    padding: 4px 8px;
+    font-family: 'Montserrat', sans-serif;
+    background: #8d76be;
+    border-radius: 4px;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    letter-spacing: 1.92px;
+    color: #ffffff;
+
+}
+
+.price {
+    position: relative;
+    color: #212121;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 89px;
+    font-family: "Arvo", serif;
+    padding-top: 16px;
+    padding-bottom: 12px;
+
+}
+
+.price::before {
+    content: "$";
+    position: absolute;
+    top: 20px;
+    left: -3px;
+    transform: translate(-100%, 0);
+    color: #818181;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.popularPrice {
+	color: #f05638;
+}
+
+.text,
+.download {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    padding-bottom: 9px;
+}
+
+.button {
+	width: 160px;
+	height: 46px;
+	border: 1px solid #9fa3a7;
+	border-radius: 100px;
+	font-family: 'Montserrat';
+    font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	color: #525252;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #ffc80a;
+	color: #ffffff;
+	border-color: #ffc80a;
+}
+
+.memory {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    padding-top: 5px;
+    margin-bottom: 27px;
+}
